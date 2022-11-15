@@ -44,7 +44,7 @@ export default function Home() {
             <AiFillYoutube />
           </div>
           <div className=' relative mx-auto bg-gradient-to-b overflow-hidden from-teal-600 rounded-full w-80 h-80'>
-            <Image src={deved} layout="fill" objectFit='cover' />
+            <Image alt='image' src={deved} layout="fill" objectFit='cover' />
           </div>
         </section>
         {/* First part is done  */}
@@ -62,7 +62,7 @@ export default function Home() {
           </div>
           <div>
             <div className=' text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image src={design} width= {100} height={100}/>
+              <Image alt='image' src={design} width= {100} height={100}/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful design</h3>
               <p className='py-2'>
                 Creating elegant design suited for your name desing theory.
@@ -73,7 +73,7 @@ export default function Home() {
               <p className='text-gray-800 py-1'>Figma</p>
             </div>
             <div className=' text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image src={code} width= {100} height={100}/>
+              <Image alt='image' src={code} width= {100} height={100}/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful design</h3>
               <p className='py-2'>
                 Creating elegant design suited for your name desing theory.
@@ -84,7 +84,7 @@ export default function Home() {
               <p className='text-gray-800 py-1'>Figma</p>
             </div>
             <div className=' text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image src={consulting} width= {100} height={100}/>
+              <Image alt='image' src={consulting} width= {100} height={100}/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful design</h3>
               <p className='py-2'>
                 Creating elegant design suited for your name desing theory.
@@ -110,22 +110,22 @@ export default function Home() {
           </div>
           <div>
             <div>
-              <Image src={web1}/>
+              <Image alt='image' src={web1}/>
             </div>
             <div>
-              <Image src={web2}/>
+              <Image alt= 'alt' src={web2}/>
             </div>
             <div>
-              <Image src={web3}/>
+              <Image alt= 'alt' src={web3}/>
             </div>
             <div>
-              <Image src={web4}/>
+              <Image  alt= 'alt'src={web4}/>
             </div>
             <div>
-              <Image src={web5}/>
+              <Image alt= 'alt' src={web5}/>
             </div>
             <div>
-              <Image src={web6}/>
+              <Image alt= 'alt' src={web6}/>
             </div>
           </div>
         </section>
